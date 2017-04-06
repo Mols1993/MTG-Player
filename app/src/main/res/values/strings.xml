@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Planechase</string>
+    <string name="plane">Plane</string>
+    <string name="title_activity_planechase">Planechase</string>
+    <string name="title_activity_archenemy">Archenemy</string>
+    <string name="archenemy">Archenemy</string>
+</resources>
