@@ -17,7 +17,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
-import com.instants.mols1993.planechase.R;
+import com.mols1993.planechase.R;
 
 import java.io.IOException;
 import java.util.ArrayList;

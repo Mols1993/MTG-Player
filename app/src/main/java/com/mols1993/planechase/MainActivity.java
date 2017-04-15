@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.instants.mols1993.planechase.R;
+import com.mols1993.planechase.R;
 
 public class MainActivity extends AppCompatActivity {
 
