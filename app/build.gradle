@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.instants.mols1993.planechase"
+        applicationId "com.mols1993.planechase"
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
