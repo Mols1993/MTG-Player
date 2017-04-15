@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity android:name="com.mols1993.planechase.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,14 +18,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Planechase"
+            android:name="com.mols1993.planechase.Planechase"
             android:label="@string/title_activity_planechase"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.mols1993.planechase.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:configChanges="orientation">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.instants.mols1993.planechase.MainActivity" />
+                android:value="com.mols1993.planechase.MainActivity" />
         </activity>
     </application>
 

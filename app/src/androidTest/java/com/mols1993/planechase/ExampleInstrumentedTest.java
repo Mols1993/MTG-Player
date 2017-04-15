@@ -1,4 +1,4 @@
-package com.instants.mols1993.planechase;
+package com.mols1993.planechase;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
