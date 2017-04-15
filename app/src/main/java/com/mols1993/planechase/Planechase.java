@@ -1,4 +1,4 @@
-package com.instants.mols1993.planechase;
+package com.mols1993.planechase;
 
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
@@ -14,7 +14,10 @@ import android.util.Log;
 import android.view.Display;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageView;
+
+import com.instants.mols1993.planechase.R;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -81,6 +84,7 @@ public class Planechase extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         //Get data from Intent
         Bundle extras = getIntent().getExtras();
@@ -124,9 +128,7 @@ public class Planechase extends AppCompatActivity {
 
         //List planes in a list
         try {
-            for(String file : getAssets().list(folder)){
-                list.add(file);
-            }
+            Collections.addAll(list, getAssets().list(folder));
         } catch (IOException e) {
             e.printStackTrace();
         }
